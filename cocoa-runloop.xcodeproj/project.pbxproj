@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691C2C2418CEFC7000BEB0B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */; };
+		691C2C2E18CEFC7000BEB0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C2C18CEFC7000BEB0B1 /* InfoPlist.strings */; };
+		691C2C3018CEFC7000BEB0B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C2C2F18CEFC7000BEB0B1 /* main.m */; };
+		691C2C3418CEFC7000BEB0B1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C3218CEFC7000BEB0B1 /* Credits.rtf */; };
+		691C2C3718CEFC7000BEB0B1 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C2C3618CEFC7000BEB0B1 /* JKAppDelegate.m */; };
+		691C2C3A18CEFC7000BEB0B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C3818CEFC7000BEB0B1 /* MainMenu.xib */; };
+		691C2C3C18CEFC7000BEB0B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C3B18CEFC7000BEB0B1 /* Images.xcassets */; };
+		691C2C4318CEFC7000BEB0B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C2C4218CEFC7000BEB0B1 /* XCTest.framework */; };
+		691C2C4418CEFC7000BEB0B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */; };
+		691C2C4C18CEFC7000BEB0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C4A18CEFC7000BEB0B1 /* InfoPlist.strings */; };
+		691C2C4E18CEFC7000BEB0B1 /* cocoa_runloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C2C4D18CEFC7000BEB0B1 /* cocoa_runloopTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		691C2C4518CEFC7000BEB0B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691C2C1818CEFC7000BEB0B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691C2C1F18CEFC7000BEB0B1;
+			remoteInfo = "cocoa-runloop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691C2C2018CEFC7000BEB0B1 /* cocoa-runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocoa-runloop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		691C2C2618CEFC7000BEB0B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		691C2C2718CEFC7000BEB0B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		691C2C2818CEFC7000BEB0B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		691C2C2B18CEFC7000BEB0B1 /* cocoa-runloop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocoa-runloop-Info.plist"; sourceTree = "<group>"; };
+		691C2C2D18CEFC7000BEB0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		691C2C2F18CEFC7000BEB0B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		691C2C3118CEFC7000BEB0B1 /* cocoa-runloop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoa-runloop-Prefix.pch"; sourceTree = "<group>"; };
+		691C2C3318CEFC7000BEB0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		691C2C3518CEFC7000BEB0B1 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		691C2C3618CEFC7000BEB0B1 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		691C2C3918CEFC7000BEB0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		691C2C3B18CEFC7000BEB0B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		691C2C4118CEFC7000BEB0B1 /* cocoa-runloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cocoa-runloopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691C2C4218CEFC7000BEB0B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		691C2C4918CEFC7000BEB0B1 /* cocoa-runloopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocoa-runloopTests-Info.plist"; sourceTree = "<group>"; };
+		691C2C4B18CEFC7000BEB0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		691C2C4D18CEFC7000BEB0B1 /* cocoa_runloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_runloopTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691C2C1D18CEFC7000BEB0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C2418CEFC7000BEB0B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691C2C3E18CEFC7000BEB0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C4418CEFC7000BEB0B1 /* Cocoa.framework in Frameworks */,
+				691C2C4318CEFC7000BEB0B1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691C2C1718CEFC7000BEB0B1 = {
+			isa = PBXGroup;
+			children = (
+				691C2C2918CEFC7000BEB0B1 /* cocoa-runloop */,
+				691C2C4718CEFC7000BEB0B1 /* cocoa-runloopTests */,
+				691C2C2218CEFC7000BEB0B1 /* Frameworks */,
+				691C2C2118CEFC7000BEB0B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		691C2C2118CEFC7000BEB0B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C2018CEFC7000BEB0B1 /* cocoa-runloop.app */,
+				691C2C4118CEFC7000BEB0B1 /* cocoa-runloopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691C2C2218CEFC7000BEB0B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */,
+				691C2C4218CEFC7000BEB0B1 /* XCTest.framework */,
+				691C2C2518CEFC7000BEB0B1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		691C2C2518CEFC7000BEB0B1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C2618CEFC7000BEB0B1 /* AppKit.framework */,
+				691C2C2718CEFC7000BEB0B1 /* CoreData.framework */,
+				691C2C2818CEFC7000BEB0B1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		691C2C2918CEFC7000BEB0B1 /* cocoa-runloop */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C3518CEFC7000BEB0B1 /* JKAppDelegate.h */,
+				691C2C3618CEFC7000BEB0B1 /* JKAppDelegate.m */,
+				691C2C3818CEFC7000BEB0B1 /* MainMenu.xib */,
+				691C2C3B18CEFC7000BEB0B1 /* Images.xcassets */,
+				691C2C2A18CEFC7000BEB0B1 /* Supporting Files */,
+			);
+			path = "cocoa-runloop";
+			sourceTree = "<group>";
+		};
+		691C2C2A18CEFC7000BEB0B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C2B18CEFC7000BEB0B1 /* cocoa-runloop-Info.plist */,
+				691C2C2C18CEFC7000BEB0B1 /* InfoPlist.strings */,
+				691C2C2F18CEFC7000BEB0B1 /* main.m */,
+				691C2C3118CEFC7000BEB0B1 /* cocoa-runloop-Prefix.pch */,
+				691C2C3218CEFC7000BEB0B1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		691C2C4718CEFC7000BEB0B1 /* cocoa-runloopTests */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C4D18CEFC7000BEB0B1 /* cocoa_runloopTests.m */,
+				691C2C4818CEFC7000BEB0B1 /* Supporting Files */,
+			);
+			path = "cocoa-runloopTests";
+			sourceTree = "<group>";
+		};
+		691C2C4818CEFC7000BEB0B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				691C2C4918CEFC7000BEB0B1 /* cocoa-runloopTests-Info.plist */,
+				691C2C4A18CEFC7000BEB0B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691C2C1F18CEFC7000BEB0B1 /* cocoa-runloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691C2C5118CEFC7000BEB0B1 /* Build configuration list for PBXNativeTarget "cocoa-runloop" */;
+			buildPhases = (
+				691C2C1C18CEFC7000BEB0B1 /* Sources */,
+				691C2C1D18CEFC7000BEB0B1 /* Frameworks */,
+				691C2C1E18CEFC7000BEB0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cocoa-runloop";
+			productName = "cocoa-runloop";
+			productReference = 691C2C2018CEFC7000BEB0B1 /* cocoa-runloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		691C2C4018CEFC7000BEB0B1 /* cocoa-runloopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691C2C5418CEFC7000BEB0B1 /* Build configuration list for PBXNativeTarget "cocoa-runloopTests" */;
+			buildPhases = (
+				691C2C3D18CEFC7000BEB0B1 /* Sources */,
+				691C2C3E18CEFC7000BEB0B1 /* Frameworks */,
+				691C2C3F18CEFC7000BEB0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				691C2C4618CEFC7000BEB0B1 /* PBXTargetDependency */,
+			);
+			name = "cocoa-runloopTests";
+			productName = "cocoa-runloopTests";
+			productReference = 691C2C4118CEFC7000BEB0B1 /* cocoa-runloopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691C2C1818CEFC7000BEB0B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jkorp;
+				TargetAttributes = {
+					691C2C4018CEFC7000BEB0B1 = {
+						TestTargetID = 691C2C1F18CEFC7000BEB0B1;
+					};
+				};
+			};
+			buildConfigurationList = 691C2C1B18CEFC7000BEB0B1 /* Build configuration list for PBXProject "cocoa-runloop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691C2C1718CEFC7000BEB0B1;
+			productRefGroup = 691C2C2118CEFC7000BEB0B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691C2C1F18CEFC7000BEB0B1 /* cocoa-runloop */,
+				691C2C4018CEFC7000BEB0B1 /* cocoa-runloopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691C2C1E18CEFC7000BEB0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C2E18CEFC7000BEB0B1 /* InfoPlist.strings in Resources */,
+				691C2C3C18CEFC7000BEB0B1 /* Images.xcassets in Resources */,
+				691C2C3418CEFC7000BEB0B1 /* Credits.rtf in Resources */,
+				691C2C3A18CEFC7000BEB0B1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691C2C3F18CEFC7000BEB0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C4C18CEFC7000BEB0B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691C2C1C18CEFC7000BEB0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C3018CEFC7000BEB0B1 /* main.m in Sources */,
+				691C2C3718CEFC7000BEB0B1 /* JKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691C2C3D18CEFC7000BEB0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C2C4E18CEFC7000BEB0B1 /* cocoa_runloopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		691C2C4618CEFC7000BEB0B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691C2C1F18CEFC7000BEB0B1 /* cocoa-runloop */;
+			targetProxy = 691C2C4518CEFC7000BEB0B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		691C2C2C18CEFC7000BEB0B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691C2C2D18CEFC7000BEB0B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		691C2C3218CEFC7000BEB0B1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691C2C3318CEFC7000BEB0B1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		691C2C3818CEFC7000BEB0B1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691C2C3918CEFC7000BEB0B1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		691C2C4A18CEFC7000BEB0B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691C2C4B18CEFC7000BEB0B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		691C2C4F18CEFC7000BEB0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		691C2C5018CEFC7000BEB0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		691C2C5218CEFC7000BEB0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-runloop/cocoa-runloop-Prefix.pch";
+				INFOPLIST_FILE = "cocoa-runloop/cocoa-runloop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		691C2C5318CEFC7000BEB0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-runloop/cocoa-runloop-Prefix.pch";
+				INFOPLIST_FILE = "cocoa-runloop/cocoa-runloop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		691C2C5518CEFC7000BEB0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cocoa-runloop.app/Contents/MacOS/cocoa-runloop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-runloop/cocoa-runloop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cocoa-runloopTests/cocoa-runloopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		691C2C5618CEFC7000BEB0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cocoa-runloop.app/Contents/MacOS/cocoa-runloop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-runloop/cocoa-runloop-Prefix.pch";
+				INFOPLIST_FILE = "cocoa-runloopTests/cocoa-runloopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691C2C1B18CEFC7000BEB0B1 /* Build configuration list for PBXProject "cocoa-runloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691C2C4F18CEFC7000BEB0B1 /* Debug */,
+				691C2C5018CEFC7000BEB0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691C2C5118CEFC7000BEB0B1 /* Build configuration list for PBXNativeTarget "cocoa-runloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691C2C5218CEFC7000BEB0B1 /* Debug */,
+				691C2C5318CEFC7000BEB0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		691C2C5418CEFC7000BEB0B1 /* Build configuration list for PBXNativeTarget "cocoa-runloopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691C2C5518CEFC7000BEB0B1 /* Debug */,
+				691C2C5618CEFC7000BEB0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691C2C1818CEFC7000BEB0B1 /* Project object */;
+}
