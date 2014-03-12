@@ -11,5 +11,6 @@
 @interface JKAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-
+- (void) registerSource: (id) context;
+- (void) removeSource:(id) context;
 @end

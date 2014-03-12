@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690CECCA18D0286A00F1419D /* RunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 690CECC918D0286A00F1419D /* RunLoopSource.m */; };
 		691C2C2418CEFC7000BEB0B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */; };
 		691C2C2E18CEFC7000BEB0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 691C2C2C18CEFC7000BEB0B1 /* InfoPlist.strings */; };
 		691C2C3018CEFC7000BEB0B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C2C2F18CEFC7000BEB0B1 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690CECC818D0286A00F1419D /* RunLoopSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopSource.h; sourceTree = "<group>"; };
+		690CECC918D0286A00F1419D /* RunLoopSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopSource.m; sourceTree = "<group>"; };
 		691C2C2018CEFC7000BEB0B1 /* cocoa-runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocoa-runloop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		691C2C2318CEFC7000BEB0B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		691C2C2618CEFC7000BEB0B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				691C2C3818CEFC7000BEB0B1 /* MainMenu.xib */,
 				691C2C3B18CEFC7000BEB0B1 /* Images.xcassets */,
 				691C2C2A18CEFC7000BEB0B1 /* Supporting Files */,
+				690CECC818D0286A00F1419D /* RunLoopSource.h */,
+				690CECC918D0286A00F1419D /* RunLoopSource.m */,
 			);
 			path = "cocoa-runloop";
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				691C2C3018CEFC7000BEB0B1 /* main.m in Sources */,
+				690CECCA18D0286A00F1419D /* RunLoopSource.m in Sources */,
 				691C2C3718CEFC7000BEB0B1 /* JKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +473,7 @@
 				691C2C5318CEFC7000BEB0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		691C2C5418CEFC7000BEB0B1 /* Build configuration list for PBXNativeTarget "cocoa-runloopTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				691C2C5618CEFC7000BEB0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
