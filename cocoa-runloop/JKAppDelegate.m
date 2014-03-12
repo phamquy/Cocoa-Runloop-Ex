@@ -76,7 +76,6 @@ void myRunLoopObserver ( CFRunLoopObserverRef observer, CFRunLoopActivity activi
 
 
 #pragma mark - Worker Thread
-#define kWorkerMode @"WorkerMode"
 - (void) workerThread: (id) data
 {
     NSLog(@"Enter worker thread");
